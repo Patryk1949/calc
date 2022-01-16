@@ -1,6 +1,7 @@
 #pragma once
 
-#include <setjmp.h>
+#include <setjmp.h> // I challange anyone to write a cleaner/simpler error handling for a case simmilar to this
+
 #include <stdint.h>
 #include <string.h>
 #include <stdio.h>

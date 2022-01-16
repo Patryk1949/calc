@@ -7,6 +7,8 @@ simple command line calculator
 $ calc "x = 21   2 + sin x - 3"
 # it can also execute text files:
 $ calc -f math_expression.txt
+# also it's possible to pipe into it
+$ echo "2 + sin(pi/2)" | calc
 
 # syntax
 spaces, tabs and newlines have no meaning

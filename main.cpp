@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "calculate.hpp"
 
 std::vector<FuncRunInfo> parseTokens(const Token *input) noexcept;
